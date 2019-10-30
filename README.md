@@ -11,6 +11,6 @@ O projeto foi motivado pela necessidade de realizar calculos simbolicos em coord
 ## Veja em ação:
 .gif com execução da função sym_gradient
 
-![sym_gradient](https://lh6.googleusercontent.com/5osJoyrzmCUwSMhRIYGt_4-IOYvq8uslDQjyVJpe2Fpw8WOjW9bfBiw6agJB2TIGgtcGmuskXxepaOZDCXF3=w1600-h757)
+![sym_gradient](sym_grad.gif)
 
 Código executado no live editor do MATLAB R2018a.
