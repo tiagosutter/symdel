@@ -1,0 +1,47 @@
+{ 
+   "sym_divergence":{ 
+      "inputs":[ 
+         { 
+            "name":"V",
+            "purpose": "Campo vetorial V",
+            "kind":"required"
+         },
+         { 
+            "name":"vars",
+            "purpose": "Variáveis simbolicas",
+            "kind":"required"
+         },
+         { 
+            "name":"coordSys",
+            "kind":"required",
+            "type":[ 
+               "char",
+               "CoordSys",
+               "choices={'cartesian','cylindrical','spherical'}"
+            ]
+         }
+      ]
+   },
+   "sym_gradient":{ 
+      "inputs":[ 
+         { 
+            "name":"U",
+            "kind":"required"
+         },
+         { 
+            "name":"vars",
+            "purpose": "Variáveis simbolicas",
+            "kind":"required"
+         },
+         { 
+            "name":"coordSys",
+            "kind":"required",
+            "type":[ 
+               "char",
+               "CoordSys",
+               "choices={'cartesian','cylindrical'}"
+            ]
+         }
+      ]
+   }
+}
