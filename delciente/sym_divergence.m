@@ -3,6 +3,12 @@ function div = sym_divergence(V, vars, coordSys)
     %   TODO: Explicação detalhada
     %   TODO: Colocar exemplos
     
+    if length(V) < 3
+        E = MException('sym_divergence:InvalidInput',...
+                       'A entrada deveria ser um vetor tridimensional.');
+        throw(E);
+    end
+    
     switch lower(string(coordSys))
         case 'cartesian'
             div = divergence(V, vars);
