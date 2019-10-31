@@ -1,5 +1,5 @@
 % symdel
-% Version 0.1.0 31-Oct-2019
+% Version 1.0.0 31-Oct-2019
 % 
 %  ___ _   _ _ __ ___   ************
 % /  _| | | | '_ ` _ \   **       *
@@ -11,9 +11,9 @@
 %   http://patorjk.com/software/taag/
 %   http://asciiflow.com/
 % 
-%   Conteúdo
+%   ConteÃºdo
 %   --------
-%   CoordSys       - CoordSys Enumeração de sistemas de coordenadas
+%   CoordSys       - CoordSys EnumeraÃ§Ã£o de sistemas de coordenadas
 %   sym_divergence - Divergente simbolico de um campo vetorial
 %   sym_gradient   - Gradiente simbolico
 
