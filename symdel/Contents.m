@@ -1,4 +1,4 @@
-% delciente
+% symdel
 % Version 0.1.0
 %
 %   CoordSys       - CoordSys Enumeração de sistemas de coordenadas
