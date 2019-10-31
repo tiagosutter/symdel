@@ -18,9 +18,11 @@ function grad = sym_gradient(U, vars, coordSys)
             r = vars(1);
             theta = vars(2);
             phi = vars(3);
-            % TODO: Implementar gradiente em coord. esféricas
-            E = MException('sym_gradient:NotImplemented', 'Gradient in spherical coordinates not implemented yet');
-            throw(E);
+            
+            grad = [diff(U, r), ...
+                    diff(U, theta)/r, ...
+                    diff(U, phi)/(r*sin(theta))
+                ]
         otherwise
             E = MException('sym_gradient:InvalidCoordSys', 'The specified coordinates system is not valid.');
             throw(E);
