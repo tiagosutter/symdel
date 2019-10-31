@@ -39,7 +39,7 @@
             "type":[ 
                "char",
                "CoordSys",
-               "choices={'cartesian','cylindrical'}"
+               "choices={'cartesian','cylindrical','spherical'}"
             ]
          }
       ]
