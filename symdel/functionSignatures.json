@@ -3,12 +3,10 @@
       "inputs":[ 
          { 
             "name":"V",
-            "purpose": "Campo vetorial V",
             "kind":"required"
          },
          { 
             "name":"vars",
-            "purpose": "Variáveis simbolicas",
             "kind":"required"
          },
          { 
@@ -30,7 +28,6 @@
          },
          { 
             "name":"vars",
-            "purpose": "Variáveis simbolicas",
             "kind":"required"
          },
          { 
