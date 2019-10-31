@@ -1,6 +1,8 @@
 function grad = sym_gradient(U, vars, coordSys)
-    %SYM_DIVERGENCE Gradiente simbolico
-    %   TODO: Explicação detalhada
+    %SYM_GRADIENT Gradiente simbolico
+    %   Calcula o gradiente simbolico de um campo vetorial V, em função
+    %   das variáveis especificadas no vetor vars.
+    
     %   TODO: Colocar exemplos
     
     switch lower(string(coordSys))
