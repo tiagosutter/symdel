@@ -1,4 +1,4 @@
-# matlab-del
+# sym∇
 Funções MATLAB para calculo simbólico de divergente, gradiente e rotacional nos sistemas de coordenadas: 
 * cartesianas (x, y, z)
 * cilíndricas círculares (ρ, ϕ, z)
