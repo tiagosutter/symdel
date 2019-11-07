@@ -40,5 +40,26 @@
             ]
          }
       ]
+   },
+   "sym_curl":{ 
+      "inputs":[ 
+         { 
+            "name":"V",
+            "kind":"required"
+         },
+         { 
+            "name":"vars",
+            "kind":"required"
+         },
+         { 
+            "name":"coordSys",
+            "kind":"required",
+            "type":[ 
+               "char",
+               "CoordSys",
+               "choices={'cartesian','cylindrical','spherical'}"
+            ]
+         }
+      ]
    }
 }
