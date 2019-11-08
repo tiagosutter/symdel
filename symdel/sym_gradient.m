@@ -13,7 +13,7 @@ function grad = sym_gradient(U, vars, coordSys)
 
     %   TODO: Colocar exemplos
     
-    if length(vars) < 3 ~isvector(vars)
+    if length(vars) < 3 && ~isvector(vars)
         E = MException('sym_divergence:InvalidInput',...
                        'vars deveria ser um vetor tridimensional.');
         throw(E);
