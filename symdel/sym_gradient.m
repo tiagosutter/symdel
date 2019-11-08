@@ -7,11 +7,17 @@ function grad = sym_gradient(U, vars, coordSys)
     %     U - Campo escalar
     %     vars - vetor com 3 dimensões com as variáveis utlizadas
     %     coordSys - sistema de coordenada:
-    %       'cartesian' para cartesianas
-    %       'cylindrical' para cilíndricas
-    %       'spherical' para esféricas
+    %       'cartesian' para coordenadas cartesianas
+    %       'cylindrical' para coordenadas cilíndricas
+    %       'spherical' para coordenadas esféricas
 
     %   TODO: Colocar exemplos
+    
+    if length(vars) < 3 ~isvector(vars)
+        E = MException('sym_divergence:InvalidInput',...
+                       'vars deveria ser um vetor tridimensional.');
+        throw(E);
+    end
     
     switch lower(string(coordSys))
         case 'cartesian'

@@ -7,15 +7,21 @@ function c = sym_curl(V, vars, coordSys)
     %     U - Campo vetorial
     %     vars - vetor com 3 dimensões com as variáveis utlizadas
     %     coordSys - sistema de coordenada:
-    %       'cartesian' para cartesianas
-    %       'cylindrical' para cilíndricas
-    %       'spherical' para esféricas
+    %       'cartesian' para coordenadas cartesianas
+    %       'cylindrical' para coordenadas cilíndricas
+    %       'spherical' para coordenadas esféricas
 
     %   TODO: Colocar exemplos
 
-    if length(V) < 3
+    if length(V) < 3 && ~isvector(V)
         E = MException('sym_curl:InvalidInput',...
-            'A entrada deveria ser um vetor tridimensional.');
+            'A entrada deveria ser um vetor de três dimensões.');
+        throw(E);
+    end
+    
+    if length(vars) < 3 && ~isvector(vars)
+        E = MException('sym_divergence:InvalidInput',...
+                       'vars deveria ser um vetor tridimensional.');
         throw(E);
     end
 
