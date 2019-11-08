@@ -27,7 +27,11 @@ function div = sym_divergence(V, vars, coordSys)
     
     switch lower(string(coordSys))
         case 'cartesian'
-            div = divergence(V, vars);
+            [Vx, x] = deal(V(1), vars(1));
+            [Vy, y] = deal(V(2), vars(2));
+            [Vz, z] = deal(V(3), vars(3));
+            
+            div = diff(Vx, x) + diff(Vy, y) + diff(Vz, z);
         case 'cylindrical'
             [rho, Vrho] = deal(vars(1), V(1));
             [phi, Vphi] = deal(vars(2), V(2));

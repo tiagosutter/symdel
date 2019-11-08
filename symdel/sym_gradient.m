@@ -21,7 +21,11 @@ function grad = sym_gradient(U, vars, coordSys)
     
     switch lower(string(coordSys))
         case 'cartesian'
-            grad = gradient(U, vars);
+            x = vars(1);
+            y = vars(2);
+            z = vars(3);
+
+            grad = [diff(U, x); diff(U, y); diff(U, z)];
         case 'cylindrical'
             rho = vars(1);
             phi = vars(2);

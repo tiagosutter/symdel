@@ -27,7 +27,7 @@ function c = sym_curl(V, vars, coordSys)
 
     switch lower(string(coordSys))
         case 'cartesian'
-            c = curl(V, vars);
+            c = sym_curl_cartesian(V, vars);
         case 'cylindrical'
             c = sym_curl_cylindrical(V, vars);
         case 'spherical'
@@ -37,6 +37,17 @@ function c = sym_curl(V, vars, coordSys)
                 'Invalid coordinate system.');
             throw(E);
     end
+end
+
+
+function c = sym_curl_cartesian(V, vars)
+    [Vx, x] = deal(V(1), vars(1));
+    [Vy, y] = deal(V(2), vars(2));
+    [Vz, z] = deal(V(3), vars(3));
+
+    c = [diff(Vz, y) - diff(Vy, z); ...
+        diff(Vx, z) - diff(Vz, x); ...
+        diff(Vy, x) - diff(Vx, y)];
 end
 
 
