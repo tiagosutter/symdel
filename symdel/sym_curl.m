@@ -4,7 +4,7 @@ function c = sym_curl(V, vars, coordSys)
     %   das variáveis especificadas no vetor vars.
     %
     %   Entradas:
-    %     U - Campo vetorial
+    %     V - Campo vetorial
     %     vars - vetor com 3 dimensões com as variáveis utlizadas
     %     coordSys - sistema de coordenada:
     %       'cartesian' para coordenadas cartesianas
