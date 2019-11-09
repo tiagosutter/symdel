@@ -6,7 +6,7 @@ Funções MATLAB para calculo simbólico de divergente, gradiente e rotacional n
 
 ## Instalação
 
-Basta fazer o [download do arquivo symdel.mltbx](https://github.com/tiagosutter/symdel/releases/download/v1.0.0/symdel.mltbx) e dar duplo clique no arquivo. Se o MATLAB não estiver configurado para abrir .mltbx a instalação pode ser feita arrastando o arquivo e soltando na linha de comando do MATLAB.
+Basta fazer o [download do arquivo symdel.mltbx](https://github.com/tiagosutter/symdel/releases/download/v1.1.0/symdel.mltbx) e dar duplo clique no arquivo. Se o MATLAB não estiver configurado para abrir .mltbx a instalação pode ser feita arrastando o arquivo e soltando na linha de comando do MATLAB.
 
 ## Motivação
 
