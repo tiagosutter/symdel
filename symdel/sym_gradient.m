@@ -3,6 +3,8 @@ function grad = sym_gradient(U, vars, coordSys)
     %   Calcula o gradiente simbolico de um campo vetorial V, em função
     %   das variáveis especificadas no vetor vars.
     %
+    %   Sintaxe: sym_gradient(U, vars, coordSys)
+    %
     %   Entradas:
     %     U - Campo escalar
     %     vars - vetor com 3 dimensões com as variáveis utlizadas

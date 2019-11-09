@@ -3,6 +3,8 @@ function div = sym_divergence(V, vars, coordSys)
     %   Calcula o divergente simbolico de um campo vetorial V, em função
     %   das variáveis especificadas no vetor vars.
     %
+    %   Sintaxe: sym_divergence(V, vars, coordSys)
+    %
     %   Entradas:
     %     V - Campo vetorial
     %     vars - vetor com 3 dimensões com as variáveis utlizadas

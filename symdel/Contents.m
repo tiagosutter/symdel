@@ -1,6 +1,8 @@
 % symdel
 % Version 1.1.0 08-Nov-2019
 % 
+%   Para mais documentação visite: https://github.com/tiagosutter/symdel/wiki
+%
 %   Conteúdo
 %   --------
 %   CoordSys       - CoordSys Enumeração de sistemas de coordenadas

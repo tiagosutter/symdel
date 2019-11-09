@@ -2,6 +2,8 @@ function c = sym_curl(V, vars, coordSys)
     %SYM_CURL Rotacional simbolico de um campo vetorial
     %   Calcula o rotacional simbolico de um campo vetorial V, em função
     %   das variáveis especificadas no vetor vars.
+    %   
+    %   Sintaxe: sym_curl(V, vars, coordSys)
     %
     %   Entradas:
     %     V - Campo vetorial
