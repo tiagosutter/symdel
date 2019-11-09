@@ -17,6 +17,11 @@ Para mais informações sobre a instalação e o instalador visite: [Como fazer 
 ## Como usar
 Saiba mais sobre como usar na [documentação](https://github.com/tiagosutter/symdel/wiki)
 
+Para obter documentação offline no MATLAB execute:
+```
+doc symdel
+```
+
 ## Veja em ação:
 .gif com execução da função sym_gradient
 
