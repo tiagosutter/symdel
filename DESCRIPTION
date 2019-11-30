@@ -1,0 +1,12 @@
+Name: symdel
+Version: 1.2.0
+Date: 2019-11-30
+Author: Tiago Sutter (tiagosutter@gmail.com)
+Maintainer: Tiago Sutter (tiagosutter@gmail.com)
+Title: Symbolic gradient, curl and divergence for Octave.
+Description: Adds symbolic calculation of gradient, curl and divergence
+ in cartesian, cylindrical and spherical coordinates.
+Categories: symbolic
+Url: https://github.com/tiagosutter/symdel/
+Depends: symbolic
+License: MIT

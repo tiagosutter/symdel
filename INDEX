@@ -1,0 +1,5 @@
+symdel >> symdel
+Main functions
+ sym_curl
+ sym_divergence
+ sym_gradient
