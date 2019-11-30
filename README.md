@@ -25,6 +25,6 @@ doc symdel
 ## Veja em ação:
 .gif com execução da função sym_gradient
 
-![sym_gradient](sym_grad.gif)
+![sym_gradient](img/sym_grad.gif)
 
 Código executado no live editor do MATLAB R2018a.
