@@ -4,13 +4,11 @@ Funções MATLAB para calculo simbólico de divergente, gradiente e rotacional n
 * cilíndricas círculares (ρ, ϕ, z)
 * esféricas (r, θ, ϕ)
 
+Esse pacote requer o pacote Symbolic instalado.
+
 ## Motivação
 
 O projeto foi motivado pela necessidade de realizar calculos simbolicos em coordenadas cilíndricas e esféricas, para resolução computacional de problemas propostos na disciplina de Eletromagnetismo na [UCP](http://ucp.br/).
-
-## Instalação MATLAB
-
-Basta fazer o [download do arquivo symdel.mltbx](https://github.com/tiagosutter/symdel/releases/download/v1.2.0/symdel.mltbx) e então arrastar e soltar o arquivo na linha de comandos do MATLAB.
 
 ## Instalação Octave
 Na linha de comando do Octave executar:
@@ -22,6 +20,10 @@ Lembrando que no Octave é necessário carregaro os pacotes que serão utilizado
 `pkg load symdel`
 
 Para mais informações sobre a instalação e o instalador visite: [Como fazer a instalação](https://github.com/tiagosutter/symdel/wiki/Instalação)
+
+## Instalação MATLAB
+
+Basta fazer o [download do arquivo symdel.mltbx](https://github.com/tiagosutter/symdel/releases/download/v1.2.0/symdel.mltbx) e então arrastar e soltar o arquivo na linha de comandos do MATLAB.
 
 ## Como usar
 Saiba mais sobre como usar na [documentação](https://github.com/tiagosutter/symdel/wiki)
