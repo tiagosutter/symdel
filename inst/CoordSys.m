@@ -1,7 +1,8 @@
 classdef CoordSys
-    %CoordSys Enumeração de sistemas de coordenadas
-    enumeration
-        Cartesian, Cylindrical, Spherical
+    properties (Constant)
+        Cartesian = 'Cartesian'
+        Cylindrical = 'Cylindrical'
+        Spherical = 'Spherical'
     end
 end
 
