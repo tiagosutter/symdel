@@ -21,7 +21,7 @@ Lembrando que no Octave é necessário carregaro os pacotes que serão utilizado
 
 `pkg load symdel`
 
-Para mais informações sobre a instalação e o instalador visite: [Como fazer a instalação](https://github.com/tiagosutter/symdel/wiki/Instala%C3%A7%C3%A3o-como-toolbox)
+Para mais informações sobre a instalação e o instalador visite: [Como fazer a instalação](https://github.com/tiagosutter/symdel/wiki/Instalação)
 
 ## Como usar
 Saiba mais sobre como usar na [documentação](https://github.com/tiagosutter/symdel/wiki)
