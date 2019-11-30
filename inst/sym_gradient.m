@@ -21,7 +21,7 @@ function grad = sym_gradient(U, vars, coordSys)
         throw(E);
     end
     
-    switch lower(string(coordSys))
+    switch lower(coordSys)
         case 'cartesian'
             x = vars(1);
             y = vars(2);

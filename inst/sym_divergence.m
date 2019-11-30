@@ -27,7 +27,7 @@ function div = sym_divergence(V, vars, coordSys)
         throw(E);
     end
     
-    switch lower(string(coordSys))
+    switch lower(coordSys)
         case 'cartesian'
             [Vx, x] = deal(V(1), vars(1));
             [Vy, y] = deal(V(2), vars(2));

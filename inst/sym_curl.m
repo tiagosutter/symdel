@@ -27,7 +27,7 @@ function c = sym_curl(V, vars, coordSys)
         throw(E);
     end
 
-    switch lower(string(coordSys))
+    switch lower(coordSys)
         case 'cartesian'
             c = sym_curl_cartesian(V, vars);
         case 'cylindrical'
