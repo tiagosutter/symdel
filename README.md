@@ -10,7 +10,7 @@ O projeto foi motivado pela necessidade de realizar calculos simbolicos em coord
 
 ## Instalação
 
-Basta fazer o [download do arquivo symdel.mltbx](https://github.com/tiagosutter/symdel/releases/download/v1.1.0/symdel.mltbx) e então arrastar e soltar o arquivo na linha de comandos do MATLAB.
+Basta fazer o [download do arquivo symdel.mltbx](https://github.com/tiagosutter/symdel/releases/download/v1.2.0/symdel.mltbx) e então arrastar e soltar o arquivo na linha de comandos do MATLAB.
 
 Para mais informações sobre a instalação e o instalador visite: [Como fazer a instalação](https://github.com/tiagosutter/symdel/wiki/Instala%C3%A7%C3%A3o-como-toolbox)
 
