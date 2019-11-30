@@ -27,4 +27,4 @@ doc symdel
 
 ![sym_gradient](img/sym_grad.gif)
 
-Código executado no live editor do MATLAB R2018a.
+O código do .gif acima foi executado no Live editor do MATLAB.
