@@ -11,6 +11,10 @@ Esse pacote requer o pacote Symbolic instalado.
 O projeto foi motivado pela necessidade de realizar calculos simbolicos em coordenadas cilíndricas e esféricas, para resolução computacional de problemas propostos na disciplina de Eletromagnetismo na [UCP](http://ucp.br/).
 
 ## Instalação Octave
+
+Esse pacote requer o pacote Symbolic instalado. Que pode ser instalado via:
+`pkg install -forge symbolic`
+
 Na linha de comando do Octave executar:
 
 `pkg install https://github.com/tiagosutter/symdel/archive/v1.2.0.tar.gz`
